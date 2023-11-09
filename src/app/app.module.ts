@@ -8,6 +8,7 @@ import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import { JobsPageComponent } from './jobs-page/jobs-page.component';
 import { HomePageComponent } from './home-page/home-page/home-page.component';
 import { PaidServicesPageComponent } from './paid-services/paid-services-page.component';
+import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { PaidServicesPageComponent } from './paid-services/paid-services-page.co
     LineChartComponent,
     JobsPageComponent,
     HomePageComponent,
-    PaidServicesPageComponent
+    PaidServicesPageComponent,
+    NavigationBarComponent
   ],
   imports: [
     BrowserModule,

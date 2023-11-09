@@ -1,0 +1,123 @@
+<div class="fixed-header" style="margin-left: 90px; margin-right: 90px; margin-top: 16px;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png" alt="naukari.com" 
+              (click)="navigateToHome()">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" style="margin-left: 65px; font-size: 22px; " (click)="navigateToJobs()">
+                <span class="nav-jobs">Jobs</span>
+              </a>
+              <ul class="sub-menu">
+                <li><a>Recommended jobs</a></li>
+                <li><a>Jobs from recruiters</a></li>
+                <li><a>Jobs from alerts</a></li>
+                <li><a>Application status</a></li>
+                <li><a>Saved jobs</a></li>
+                <!-- Add more sub-items as needed -->
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#" style="margin-left: 26px; font-size: 22px;">
+                <span class="nav-jobs">Companies</span>
+              </a>
+              <ul class="sub-menu">
+                <div class="container text-left" style="width: 581px; background: white;">
+                  <div class="row">
+                    <div class="col-4">
+                      <li><a><strong>Explore categories</strong></a></li>
+                      <li><a>Unicorn</a></li>
+                      <li><a>MNC</a></li>
+                      <li><a>Startup</a></li>
+                      <li><a>Product based</a></li>
+                      <li><a>Internet</a></li>
+                    </div>
+  
+                    <div class="col-4">
+                      <li><a><strong>Explore collections</strong></a></li>
+                      <li><a>Top companies</a></li>
+                      <li><a>IT companies</a></li>
+                      <li><a>Fintech companies</a></li>
+                      <li><a>Sponsored companies</a></li>
+                      <li><a>Featured companies</a></li>
+                    </div>
+                    <div class="col-4">
+                      <li><a><strong>Research companies</strong></a></li>
+                      <li><a>Interview questions</a></li>
+                      <li><a>Company salaries</a></li>
+                      <li><a>Company reviews</a></li>
+                      <li><a>Salary calculator</a></li>
+                    </div>
+                  </div>
+                </div>
+  
+                <!-- Add more sub-items as needed -->
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#" style="margin-left: 40px; font-size: 22px; ">
+                <span class="nav-jobs">Services</span>
+              </a>
+              <ul class="sub-menu">
+                <li><a>Recommended jobs</a></li>
+                <li><a>Jobs from recruiters</a></li>
+                <li><a>Jobs from alerts</a></li>
+                <li><a>Application status</a></li>
+                <li><a>Saved jobs</a></li>
+                <!-- Add more sub-items as needed -->
+              </ul>
+            </li>
+  
+          </ul>
+          <form class="d-flex" role="search" style="margin-right: 352px;">
+            <input class="form-control me-2 search-query " type="search" placeholder="Search jobs here"
+              aria-label="Search" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample1" aria-controls="offcanvasExample1">
+            <i class="fa fa-search search-icon search-container"></i>
+          </form>
+        </div>
+      </div>
+      <div>
+        <li class="nav-item">
+          <a class="nav-link" style="margin-left: 26px; font-size: 22px;" 
+          (click)="navigateToJobs()"><i class="fa fa-bell-o "
+              style="color: #717884;font-size: 30px;"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+            style="margin-top: 17px;">
+              5
+            </span></a>
+          <ul class="sub-menu" style="margin-left: -55px;">
+            <li style="height: 44px;width: -1px;font-size: 18px;"><a>Recommended jobs</a></li>
+            <li style="height: 44px;width: -1px;font-size: 18px;"><a>Application status</a></li>
+            <li style="height: 44px;width: -1px;font-size: 18px;"><a>Jobs from recruiters</a></li>
+            <li style="height: 44px;width: -1px;font-size: 18px;"><a>Recruiter searches</a></li>
+            <!-- Add more sub-items as needed -->
+          </ul>
+        </li>
+      </div>&nbsp;&nbsp;&nbsp;
+      <div class="card" style="border-radius: 48px; height: 46px;width: 114px;">
+        <div class="row">
+          <div class="col-6">
+            <i class="fa fa-bars card-size"></i>
+          </div>
+          <div class="col-6">
+            <img class="profile-size" 
+            src="https://jooinn.com/images/close-up-portrait-of-a-beautiful-girl-7.jpg"
+            alt="profile"
+            data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              2
+            </span>
+            <!-- <button class="btn btn-primary" type="button">
+              Button with data-bs-target
+            </button> -->
+  
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
